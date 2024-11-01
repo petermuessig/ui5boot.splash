@@ -1,0 +1,1 @@
+{"version":3,"file":"webcomponents-base.js","names":["sap","ui","define","hyphenate","WebComponentRenderer","_ui5_webcomponentsBase","DataType","Boot","pkg"],"sources":["webcomponents-base-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CAAC,6BAA8B,wCAAyC,+CAAgD,uBAAwB,kCAAmC,SAAWC,EAAWC,EAAsBC,EAAwBC,EAAUC,GAAQ,aAItR,OAAOF,EAAuBG,GAE9B","ignoreList":[]}

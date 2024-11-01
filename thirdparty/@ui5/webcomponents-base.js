@@ -1,0 +1,2 @@
+sap.ui.define(["sap/base/strings/hyphenate","sap/ui/core/webc/WebComponentRenderer","ui5boot/splash/thirdparty/webcomponents-base","sap/ui/base/DataType","ui5boot/splash/thirdparty/Boot"],function(e,s,t,a,p){"use strict";return t.pkg});
+//# sourceMappingURL=webcomponents-base.js.map

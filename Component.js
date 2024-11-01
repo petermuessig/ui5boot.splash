@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","./model/models"],(e,t)=>{"use strict";return e.extend("ui5boot.splash.Component",{metadata:{manifest:"json"},init(){e.prototype.init.apply(this,arguments);this.getRouter().initialize();this.setModel(t.createDeviceModel(),"device")}})});
+//# sourceMappingURL=Component.js.map
