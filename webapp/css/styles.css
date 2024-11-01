@@ -1,0 +1,40 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body.loading {
+    background-size: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+	background-color: var(--splash-background-color, white);
+	margin: 0;
+	padding: 0;
+}
+
+body.loading > * {
+    visibility: hidden;
+}
+
+body.loading > svg {
+    visibility: visible;
+}
+
+body:not(.loading) > svg {
+	display: none;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--splash-background-color: white;
+		--splash-color: black;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--splash-background-color: black;
+		--splash-color: white;
+	}
+}

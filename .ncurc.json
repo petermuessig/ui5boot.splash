@@ -1,0 +1,9 @@
+{
+  "reject": [
+    "@wdio/cli",
+    "@wdio/local-runner",
+    "@wdio/mocha-framework",
+    "@wdio/spec-reporter",
+    "wdio-ui5-service"
+  ]
+}
